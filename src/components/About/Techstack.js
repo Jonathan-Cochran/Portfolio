@@ -5,9 +5,10 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
+  DiHtml5,
+  DiCss3,
+  DiGithubBadge,
+  DiAws,
 } from "react-icons/di";
 import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
 
@@ -27,10 +28,10 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
@@ -39,10 +40,10 @@ function Techstack() {
         <SiTensorflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGithubBadge />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <DiAws />
       </Col>
     </Row>
   );
