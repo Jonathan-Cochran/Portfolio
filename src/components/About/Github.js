@@ -4,13 +4,11 @@ import { Row } from "react-bootstrap";
 
 function Github() {
   const colourTheme = {
-    background: "transparent",
-    text: "#ffffff",
-    grade4: "#8400b8",
-    grade3: "#b22ff4",
-    grade2: "#b265f6",
-    grade1: "#c084f5",
-    grade0: "#ecd9fc",
+    level4: "#8400b8",
+    level3: "#b22ff4",
+    level2: "#b265f6",
+    level1: "#c084f5",
+    level0: "#ecd9fc",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
@@ -18,7 +16,7 @@ function Github() {
         Days I <strong className="purple">Code</strong>
       </h1>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="Jonathan-Cochran"
         blockSize={15}
         blockMargin={5}
         theme={colourTheme}
